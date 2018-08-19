@@ -1,3 +1,5 @@
+name = "esenin_python"
+
 import requests
 
 class Client:
@@ -12,3 +14,4 @@ class Client:
         except ValueError:
             raise ValueError("Wrong format from server. Check your server status.")
         return res
+
