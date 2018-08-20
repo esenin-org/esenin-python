@@ -4,8 +4,8 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="esenin_python",
-    version="0.0.3",
+    name="esenin",
+    version="0.0.1",
     author="vovapolu",
     author_email="vovapolu@gmail.com",
     description="Python wrapper for esenin.",

@@ -1,4 +1,4 @@
-name = "esenin_python"
+name = "esenin"
 
 import requests
 

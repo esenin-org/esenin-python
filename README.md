@@ -5,13 +5,13 @@ Python wrapper for json requests to [esenin-server](https://github.com/esenin-or
 ### Instalation
 
 ```bash
-pip install esenin_python
+pip install esenin
 ```
 
 ### Usage
 
 ```python
-from esenin_python import Client
+from esenin import Client
 
 nlp = Client(ip="127.0.0.1", port="9000")
 print(nlp.get_pos("Мама мыла раму."))
