@@ -2,7 +2,7 @@
 
 Python wrapper for json requests to [esenin-server](https://github.com/esenin-org/esenin-server). 
 
-### Instalation
+### Installation
 
 ```bash
 pip install esenin
