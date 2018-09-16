@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="esenin",
-    version="0.0.1",
+    version="0.0.2",
     author="vovapolu",
     author_email="vovapolu@gmail.com",
     description="Python wrapper for esenin.",
