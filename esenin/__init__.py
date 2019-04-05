@@ -17,7 +17,7 @@ class Client:
         return res
 
     def get_pos(self, text):
-        return self.__post("http://{}:{}/nlp/pos".format(self.ip, self.port), {"string": text})
+        return self.__post("http://{}:{}/nlp/pos".format(self.ip, self.port), {"text": text})
         
     def fit_topics(self, terms, topics):
         return self.__post("http://{}:{}/nlp/tm/fit".format(self.ip, self.port), {"terms": terms, "topics": topics})
